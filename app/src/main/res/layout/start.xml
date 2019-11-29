@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Team_name"
+        android:layout_width="wrap_content"
+        android:layout_height="537dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="\n\nSmart\nHome\nCCTV"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/editIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789."
+        android:hint="서버 IP 주소"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="연결" />
+
+</LinearLayout>
